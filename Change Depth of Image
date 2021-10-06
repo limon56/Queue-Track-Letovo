@@ -1,0 +1,6 @@
+IL import Image
+colorImage = Image.open("./image.png")
+colorImage.show()
+imageWithColorPalette = colorImage.convert("P", palette=Image.ADAPTIVE, colors=8)
+imageWithColorPalette.show()
+imageWithColorPalette.save("./image8_bit.png")
