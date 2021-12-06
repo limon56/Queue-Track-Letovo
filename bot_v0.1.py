@@ -28,7 +28,7 @@ def request_queue(update: Update, context: CallbackContext) -> None:
     update.message.reply_photo(url)
  
 def main() -> None:
-    updater = Updater("") #Tocken of Bot
+    updater = Updater("2129247987:AAHdzOCLztXr19IH_KKostgsQ8xZmdYxDCk") #Tocken of Bot
  
     dispatcher = updater.dispatcher
  
